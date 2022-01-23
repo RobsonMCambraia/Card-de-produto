@@ -1,5 +1,7 @@
 @charset "UTF-08";
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 html {
     height: 100%;
@@ -25,6 +27,8 @@ main {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    box-shadow: 10px 10px 43px 5px rgba(0,0,0,0.24);
+    font-family: 'Roboto', sans-serif;
 }
 main #Prim{
     display: flex;
