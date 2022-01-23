@@ -36,20 +36,44 @@ main #Prim #icon{
 main #Prim #logo{ 
     width: 22%;
 }
-main #Seg img{
+main #Seg #tenis{
     width: 100%;
-    height: 90%;
 }
-main #Ter{ 
+main #Ter h3{ 
+    margin: 0;
     font-family: 'Titillium Web', sans-serif;
-    font-size: large;
 }
 main #Quar{ 
-    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
-main #Quin{ 
-    background-color: burlywood;
+main #Quin img{
+    width: 20px; 
 }
 main #Sex{ 
-    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+main #Sex p{
+    margin-top: 23px;
+}
+main #Sex p:hover{
+    font-weight: bold;
+    font-size: large;
+}
+main #Sex h3{
+    margin-top: 22px;
+    color: rgba(0, 0, 0, 0.644);
+    text-decoration: underline;
+}
+main .comprar {
+    padding: 10px;
+    background-image: linear-gradient(45deg, #1A1A40, #270082, #7A0BC0, #FA58B6);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+main .comprar:hover{
+    background-image: linear-gradient(45deg, #FA58B6, #7A0BC0, #270082, #1A1A40);
 }
